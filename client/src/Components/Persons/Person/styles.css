@@ -1,0 +1,23 @@
+.person {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+    padding: 4px 0px 4px 0px;
+}
+
+.info {
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+

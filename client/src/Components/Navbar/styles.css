@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 3rem;
+}
+
+.navLogo {
+    margin-left: 2rem;
+    height: 3rem;
+    width: 3rem;
+}

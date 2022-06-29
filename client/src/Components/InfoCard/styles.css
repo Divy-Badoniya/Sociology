@@ -1,0 +1,36 @@
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    border: 1px solid black;
+}
+
+.infoHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editInfoForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.editInfoForm>div {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.editInfoForm>div>input {
+    width: 100%;
+}
+
+.editInfoForm>div>div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

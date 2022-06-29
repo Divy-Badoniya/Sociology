@@ -1,0 +1,30 @@
+.container {
+    width: 50%;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.form>div {
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form>div>input {
+    width: 45%;
+}
+
+.form>h4 {
+    text-align: center;
+}

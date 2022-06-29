@@ -1,0 +1,27 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postImageDisplayBox {
+    width: 100%;
+}
+
+.postImage {
+    width: 100%;
+}
+
+.postActions {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.action {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
